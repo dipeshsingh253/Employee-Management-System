@@ -98,8 +98,8 @@ Visit the link
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="./screenshots/screenshot-ems-02.png" alt="screenshot-name" width="100%" height="auto">
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="./screenshots/screenshot-ems-01.png" alt="screenshot-name" width="100%" height="auto">
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
