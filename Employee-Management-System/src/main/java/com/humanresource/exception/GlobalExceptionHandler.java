@@ -19,7 +19,7 @@ public class GlobalExceptionHandler {
 		myErrorDetails.setTimestamp(LocalDateTime.now());
 		myErrorDetails.setDescription(request.getDescription(false));
 		
-		return new ResponseEntity<MyErrorDetails>(myErrorDetails,HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<>(myErrorDetails,HttpStatus.BAD_REQUEST);
 		
 	}
 	
@@ -31,7 +31,7 @@ public class GlobalExceptionHandler {
 		myErrorDetails.setTimestamp(LocalDateTime.now());
 		myErrorDetails.setDescription(request.getDescription(false));
 		
-		return new ResponseEntity<MyErrorDetails>(myErrorDetails,HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<>(myErrorDetails,HttpStatus.BAD_REQUEST);
 		
 	}
 	
